@@ -58,19 +58,16 @@ The app focuses on clean UI, smooth animations, and logical filtering to provide
 ## 📸 Screenshots
 
 ### 🏠 Home Screen
-![Home Screen](screenshots/home.png)
+![Home Screen](screenshots/Homescreen.png)
 
 ### 🔍 Search & Filters
-![Search](screenshots/search.png)
-
-### 🥗 Veg / Non-Veg Filter
-![Filter](screenshots/filters.png)
+![Search](screenshots/Homescreen_search.png)
 
 ### 🍲 Dish Selection
-![Dish List](screenshots/dish_list.png)
+![Dish List](screenshots/add_remove.png)
 
 ### 🧾 Ingredient Bottom Sheet
-![Ingredient Sheet](screenshots/ingredient_sheet.png)
+![Ingredient Sheet](screenshots/ingredient_list.png)
 
 ### 📄 Ingredient Detail Screen
 ![Ingredient Page](screenshots/ingredient_page.png)
