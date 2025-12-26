@@ -57,14 +57,28 @@ The app focuses on clean UI, smooth animations, and logical filtering to provide
 ---
 ## 📸 Screenshots
 
-<p float="left">
+<p>
+  <b>🏠 Home Screen</b><br/>
   <img src="screenshots/Homescreen.png" width="220" />
+</p>
+
+<p>
+  <b>🔍 Search & Filters</b><br/>
   <img src="screenshots/Homescreen_search.png" width="220" />
+</p>
+
+<p>
+  <b>➕ Add / Remove Dish</b><br/>
   <img src="screenshots/add_remove.png" width="220" />
 </p>
 
-<p float="left">
+<p>
+  <b>🧾 Ingredient Bottom Sheet</b><br/>
   <img src="screenshots/ingredient_list.png" width="220" />
+</p>
+
+<p>
+  <b>📄 Ingredient Detail Screen</b><br/>
   <img src="screenshots/ingredient_page.png" width="220" />
 </p>
 
