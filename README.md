@@ -1,16 +1,98 @@
-# party_menu_selection_app
+# 🍽️ Party Menu Selection App (Flutter)
 
-A new Flutter project.
+A modern Flutter application that allows users to select dishes for a party from a categorized menu.  
+The app focuses on clean UI, smooth animations, and logical filtering to provide a real-world food ordering experience.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- 📂 **Category-based Menu**
+    - Starter, Main Course, Dessert, Sides
+    - Dynamic item count per category
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 🔍 **Global Search**
+    - Search dishes across all categories
+    - Case-insensitive search
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 🥗 **Veg / Non-Veg Filters**
+    - Custom animated switches using food-style veg/non-veg icons
+    - Independent toggles
+    - When no filter is selected, all dishes are shown
+
+- ➕ **Add / Remove Dishes**
+    - Add & remove dishes with animated buttons
+    - Selected items reflected in category count and total count
+
+- 🧾 **Ingredient Details**
+    - Ingredient list opens in a bottom sheet
+    - Displays dish image, description, and ingredient quantities
+
+- 🎨 **Modern UI**
+    - Custom search bar
+    - Rectangular category tabs
+    - Elevated bottom summary bar
+    - Smooth animations and responsive layout
+
+---
+
+## 🛠️ Tech Stack
+
+- **Flutter**
+- **Dart**
+- **Material UI**
+- State management using `setState`
+- Custom animations using `AnimatedContainer` & `AnimatedAlign`
+
+---
+
+## 📱 Screens Implemented
+
+- Home Screen (Menu List)
+- Category Tabs with Counters
+- Search & Filter UI
+- Ingredient Bottom Sheet
+- Ingredient Detail Screen
+
+---
+## 📸 Screenshots
+
+### 🏠 Home Screen
+![Home Screen](screenshots/home.png)
+
+### 🔍 Search & Filters
+![Search](screenshots/search.png)
+
+### 🥗 Veg / Non-Veg Filter
+![Filter](screenshots/filters.png)
+
+### 🍲 Dish Selection
+![Dish List](screenshots/dish_list.png)
+
+### 🧾 Ingredient Bottom Sheet
+![Ingredient Sheet](screenshots/ingredient_sheet.png)
+
+### 📄 Ingredient Detail Screen
+![Ingredient Page](screenshots/ingredient_page.png)
+
+---
+
+## 📂 Project Structure
+
+```text
+lib/
+│
+├── data/
+│   └── menu_data.dart
+│
+├── models/
+│   └── dish.dart
+│
+├── screens/
+│   ├── home_screen.dart
+│   └── ingredient_screen.dart
+│
+├── widgets/
+│   └── reusable_ui_components.dart
+│
+└── main.dart
